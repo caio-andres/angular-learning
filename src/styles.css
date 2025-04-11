@@ -1,0 +1,28 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --font-montserrat: 'Montserrat', sans-serif;
+  --font-prata: 'Prata', serif;
+  --color-primary: #6278F7;
+  --color-secondary: #2E2E2E;
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+}
+
+.text-title {
+  font-family: var(--font-prata);
+  font-size: 40px;
+  font-weight: var(--font-weight-normal);
+  line-height: 72px;
+  text-align: center;
+  color: var(--color-primary);
+}
+
+.line-contrast {
+  display: block;
+  margin: 0 auto;
+}
